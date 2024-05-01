@@ -201,6 +201,7 @@ resource "null_resource" "configure-cat-app" {
     }
   }
 }
+
 module "azure-backup" {
   source              = "ravensorb/azure-backup/azurerm"
   version             = "1.0.2"
